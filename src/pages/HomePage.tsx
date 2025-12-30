@@ -86,7 +86,7 @@ function HomePage({ onNavigate }: HomePageProps) {
 						<div className='group sm:col-span-2 lg:col-span-1'>
 							{/* <div className='aspect-[4/3] bg-[#18776C]/10 rounded-3xl mb-6 group-hover:bg-[#18776C]/20 transition-colors'> */}
 							<div className='aspect-[4/3] bg-[#18776C]/10 rounded-3xl mb-6 overflow-hidden group-hover:bg-[#18776C]/20 transition-colors'>
-								<img src='public/5.jpg' alt='Post_OP' />
+								<img src='/5.jpg' alt='Post_OP' />
 							</div>
 							<h3 className='text-2xl sm:text-3xl font-bold text-center'>
 								Post-OP Rehabilitation
