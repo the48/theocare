@@ -23,7 +23,7 @@ function ContactPage() {
 								<a
 									href='tel:+254708762791'
 									className='text-lg hover:opacity-80 transition-opacity'>
-									(254) 708934419
+									(254) 708762791
 								</a>
 							</div>
 						</div>
@@ -86,7 +86,7 @@ function ContactPage() {
 							<a
 								href='tel:+254708762791'
 								className='hover:opacity-80 transition-opacity'>
-								(254) 708934419
+								(254) 708762791
 							</a>
 							<a
 								href='mailto:info@theo-care.com'

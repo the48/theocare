@@ -11,10 +11,13 @@ function BookAppointmentPage({ onNavigate }: BookAppointmentPageProps) {
 		email: '',
 		phone: '',
 		date: '',
+		timeRange: '',
 	});
 
-	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-		const { name, value } = e.target;
+	const handleChange = (
+		e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+	) => {
+		const { name, value } = e.target as HTMLInputElement & HTMLSelectElement;
 		setFormData((prev) => ({
 			...prev,
 			[name]: value,
@@ -24,7 +27,7 @@ function BookAppointmentPage({ onNavigate }: BookAppointmentPageProps) {
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
 		console.log('Form submitted:', formData);
-		setFormData({ name: '', email: '', phone: '', date: '' });
+		setFormData({ name: '', email: '', phone: '', date: '', timeRange: '' });
 	};
 
 	return (
@@ -85,6 +88,23 @@ function BookAppointmentPage({ onNavigate }: BookAppointmentPageProps) {
 										required
 										className='px-4 sm:px-6 py-3 sm:py-4 border-2 border-[#18776C] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#18776C] text-base'
 									/>
+									<select
+										name='timeRange'
+										value={formData.timeRange}
+										onChange={handleChange}
+										required
+										className='px-4 sm:px-6 py-3 sm:py-4 border-2 border-[#18776C] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#18776C] text-base'>
+										<option value=''>Select time range</option>
+										<option value='08:00-09:00'>8:00 AM - 9:00 AM</option>
+										<option value='09:00-10:00'>9:00 AM - 10:00 AM</option>
+										<option value='10:00-11:00'>10:00 AM - 11:00 AM</option>
+										<option value='11:00-12:00'>11:00 AM - 12:00 PM</option>
+										<option value='12:00-13:00'>12:00 PM - 1:00 PM</option>
+										<option value='13:00-14:00'>1:00 PM - 2:00 PM</option>
+										<option value='14:00-15:00'>2:00 PM - 3:00 PM</option>
+										<option value='15:00-16:00'>3:00 PM - 4:00 PM</option>
+										<option value='16:00-17:00'>4:00 PM - 5:00 PM</option>
+									</select>
 								</div>
 
 								<button
