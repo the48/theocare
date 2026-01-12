@@ -13,7 +13,7 @@ function ContactPage() {
 							<MapPin className='mt-1 flex-shrink-0' size={24} />
 							<div>
 								<h3 className='font-bold text-xl mb-2'>Location</h3>
-								<p className='text-lg'>Ruiru Town</p>
+								<p className='text-lg'>Spur Mall</p>
 							</div>
 						</div>
 						<div className='flex items-start gap-3'>
@@ -32,9 +32,9 @@ function ContactPage() {
 							<div>
 								<h3 className='font-bold text-xl mb-2'>Email</h3>
 								<a
-									href='mailto:info@theo-care.com'
+									href='mailto:theocarephysiotherapy@gmail.com'
 									className='text-lg hover:opacity-80 transition-opacity'>
-									info@theo-care.com
+									theocarephysiotherapy@gmail.com
 								</a>
 							</div>
 						</div>
@@ -89,11 +89,11 @@ function ContactPage() {
 								(254) 708762791
 							</a>
 							<a
-								href='mailto:info@theo-care.com'
+								href='mailto:theocarephysiotherapy@gmail.com'
 								className='hover:opacity-80 transition-opacity'>
-								info@theo-care.com
+								theocarephysiotherapy@gmail.com
 							</a>
-							<span>Ruiru Town</span>
+							<span>Spur Mall</span>
 						</div>
 					</div>
 				</div>

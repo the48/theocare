@@ -41,7 +41,7 @@ function BookAppointmentPage({ onNavigate }: BookAppointmentPageProps) {
 
 							<div 
 								className='calendly-inline-widget' 
-								data-url='https://calendly.com/theocarephysiotherapy/30min?hide_event_type_details=1&hide_gdpr_banner=1' 
+								data-url='https://calendly.com/theocarephysiotherapy/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=efe4cf&text_color=18776c&primary_color=18776c' 
 								style={{ minWidth: '320px', height: '700px' }}
 							/>
 						</div>

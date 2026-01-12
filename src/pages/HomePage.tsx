@@ -18,7 +18,7 @@ function HomePage({ onNavigate }: HomePageProps) {
 						<div className='flex flex-col sm:flex-row gap-4 pt-4'>
 							<button
 								onClick={() => onNavigate('book')}
-								className='px-8 py-4 border-2 border-[#18776C] rounded-full hover:bg-[#18776C] hover:text-[#EFE4CF] transition-colors text-lg font-medium'>
+								className='px-8 py-4 bg-[#18776C] text-white rounded-full hover:bg-[#18776C]/90 transition-colors text-lg font-medium'>
 								Book Now
 							</button>
 						</div>
