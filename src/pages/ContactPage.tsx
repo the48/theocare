@@ -13,7 +13,7 @@ function ContactPage() {
 							<MapPin className='mt-1 flex-shrink-0' size={24} />
 							<div>
 								<h3 className='font-bold text-xl mb-2'>Location</h3>
-								<p className='text-lg'>Spur Mall</p>
+								<p className='text-lg'>Spur Mall 1st Floor, F20</p>
 							</div>
 						</div>
 						<div className='flex items-start gap-3'>
@@ -68,7 +68,7 @@ function ContactPage() {
 								</div>
 								<div className='flex justify-between'>
 									<span>Sunday:</span>
-									<span>12pm – 6pm</span>
+									<span>8am – 6pm</span>
 								</div>
 							</div>
 						</div>
@@ -93,7 +93,7 @@ function ContactPage() {
 								className='hover:opacity-80 transition-opacity'>
 								theocarephysiotherapy@gmail.com
 							</a>
-							<span>Spur Mall</span>
+							<span>Spur Mall 1st Floor F20</span>
 						</div>
 					</div>
 				</div>
